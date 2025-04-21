@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Sunnyside agency landing page
 
 ![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
@@ -92,3 +93,7 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# Sunnyside-Landing-Page
+This is a clone of Sunnyside Landing page from Frontend Mentor
+>>>>>>> f722f261158c4e21878f335b046e853be41db957
