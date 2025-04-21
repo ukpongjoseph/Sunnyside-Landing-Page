@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/sunnyside.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap" rel="stylesheet">
+<!-- .fraunces-<uniquifier> {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+} -->
+<!-- .barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} -->
+<title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="flex min-h-screen max-w-screen flex-col justify-center items-center">
+      <!-- first div -->
+      <div class="creatives flex flex-col bg-[url('/images/desktop/image-header.jpg')] bg-center w-[100%] bg-no-repeat bg-cover lg:h-[700px]">
+        <div class="navs flex justify-between flex py-4 px-3 lg:py-7 lg:px-5">
+          <div class="header">
+            <span><img class="w-[80%] lg:w-[200px]" src="/images/logo.svg" alt="logo icon"></span>
+          </div>
+          <div class="flex flex-col w-[25px] gap-1 block md:hidden">
+            <div class="text-white"><hr></div>
+            <div class="text-white"><hr></div>
+            <div class="text-white"><hr></div>
+          </div>
+          <div class="navbars flex flex-row justify-between text-white lg:text-[20px] md:text-[10px] gap-1 md:gap-3 lg:gap-5">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <button class="rounded-full px-5 py-1 text-black bg-white font-bold">CONTACT</button>
+          </div>
+        </div>
+        <div class="image flex flex-col mx-auto py-15 lg:gap-7 lg:py-10 pt-10">
+          <h1 class="flex text-white font-bold text-4xl text-center uppercase lg:text-6xl lg:pb-20">We are creatives</h1>
+          <span><img class ="h-[20%] lg:h-[250px] mx-auto pb-43 md:pb-30" src="/images/icon-arrow-down.svg" alt="icon"></span>
+        </div>
+      </div>
+      <!-- second div -->
+      <div class="photography flex flex-col md:w-[100%] md:grid md:grid-cols-2">
+        <div class="egg">
+          <img class="w-[100%]" src="/images/desktop/image-transform.jpg" alt="icon">
+        </div>
+        <div class="transform text-center py-7 md:row-start-1 md:col-start-1 md:text-start lg:my-auto">
+          <h2 class="text-3xl font-bold w-[80%] mx-auto lg:text-5xl lg:w-[60%]">Transform your brand</h2>
+          <p class="py-3 w-[80%] mx-auto lg:w-[60%] lg:text-xl">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <h5 class="font-bold uppercase md:mx-10 lg:mx-33 md:w-[30%] lg:w-[18%] text-md border border-r-0 border-t-0 border-l-0 w-[35%] mx-auto border-7 border-[hsl(51,100%,49%)] leading-[7px] lg:text-lg">Learn more</h5>
+        </div>
+        <div class="cup">
+          <img  class="w-[100%]"src="/images/desktop/image-stand-out.jpg" alt="icon">
+        </div>
+        <div class="stand-out text-center py-7 md:text-start lg:my-auto">
+          <h2 class="text-3xl font-bold w-[80%] mx-auto lg:w-[60%] lg:text-5xl">Stand out to the right audience</h2>
+          <p class="py-3 w-[80%] mx-auto lg:text-xl lg:w-[60%]">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+          <h5 class="font-bold uppercase md:mx-10 md:w-[30%] lg:w-[18%] lg:mx-33 text-md border border-r-0 border-t-0 border-l-0 w-[35%] mx-auto border-7 border-[hsl(7,99%,70%)] leading-[7px] lg:text-lg">Learn more</h5>
+        </div>
+        <div class="cherry text-center pt-50 lg:pt-100 py-3 flex flex-col bg-[url('/images/desktop/image-graphic-design.jpg')] bg-no-repeat bg-cover bg-center ">
+          <h3 class="w-[80%] mx-auto text-[hsl(198,62%,26%)] font-bold text-2xl lg:text-5xl">Graphic design</h3>
+          <p class="w-[90%] mx-auto py-3 text-[hsl(198,62%,26%)] text-md lg:text-xl lg:w-[60%]">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div>
+        <div class="orange bg-[url(/images/desktop/image-photography.jpg)] bg-no-repeat bg-cover bg-center text-center pt-50 lg:pt-100 py-3 flex flex-col">
+          <h3 class="w-[80%] mx-auto text-[hsl(198,62%,26%)] font-bold text-2xl lg:text-5xl">Photography</h3>
+          <p class="w-[90%] mx-auto py-3 text-[hsl(198,62%,26%)] text-md lg:text-xl lg:w-[60%]">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+      </div>
+      <!-- third div -->
+      <div class="third-div py-6 lg:py-15">
+        <p class="text-center font-bold uppercase py-6 md:py-10 lg:text-4xl">Client testimonials</p>
+        <div class="profiles flex flex-col md:flex-row">
+          <div class="staffs flex flex-col text-center md:flex-1">
+            <span><img class="rounded-[50%] mx-auto h-[100px] py-1" src="/images/image-emily.jpg" alt="icon"></span>
+            <p class="py-2 w-[90%] mx-auto text-sm lg:text-lg">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+            <h4 class="text-center font-bold lg:text-2xl">Emily R.</h4>
+            <p class="pb-4 w-[90%] mx-auto text-sm lg:text-lg">Marketing Director</p>
+          </div>
+          <div class="staffs flex flex-col text-center md:flex-1">
+            <span><img class="rounded-[50%] mx-auto h-[100px] py-1" src="/images/image-thomas.jpg" alt="icon"></span>
+            <p class="py-2 w-[90%] mx-auto text-sm lg:text-lg">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+            <h4 class="text-center font-bold lg:text-2xl">Thomas S.</h4>
+            <p class="pb-4 w-[90%] mx-auto text-sm lg:text-lg">Chief Operating Officer</p>
+          </div>
+          <div class="staffs flex flex-col text-center md:flex-1">
+            <span><img class="rounded-[50%] mx-auto h-[100px] py-1" src="/images/image-jennie.jpg" alt="icon"></span>
+            <p class="py-2 w-[90%] mx-auto text-sm lg:text-lg">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+            <h4 class="text-center font-bold lg:text-2xl">Jennie F.</h4>
+            <p class="pb-4 w-[90%] mx-auto text-sm lg:text-lg">Business Owner</p>
+          </div>
+        </div>
+      </div>
+      <!-- fourth div -->
+      <div class="ice-cream grid md:flex grid-cols-2 md:flex-row">
+        <div class="milk md:flex-1"><img src="/images/desktop/image-gallery-milkbottles.jpg" alt="icon"></div>
+        <div class="osan md:flex-1"><img src="/images/desktop/image-gallery-orange.jpg" alt="icon"></div>
+        <div class="cone md:flex-1"><img src="/images/desktop/image-gallery-cone.jpg" alt="icon"></div>
+        <div class="sugar md:flex-1"><img src="/images/desktop/image-gallery-sugarcubes.jpg" alt="icon"></div>
+      </div>
+      <!-- last div -->
+      <div class="footer bg-[hsl(168,34%,41%)] w-[100%] py-10">
+        <div class="link-head">
+          <h3 class="text-[hsl(167,40%,24%)] font-bold text-2xl text-center">sunnyside</h3>
+          <div class="links flex justify-center gap-5 py-5 text-[hsl(167,40%,24%)]">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a  href="#">Projects</a>
+          </div>
+        </div>
+        <div class="socials flex gap-5 justify-center py-4">
+          <img src="/images/icon-facebook.svg" alt="icon">
+          <img src="/images/icon-instagram.svg" alt="icon">
+          <img src="/images/icon-twitter.svg" alt="icon">
+          <img src="/images/icon-pinterest.svg" alt="icon">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Aniekan Joseph</a>.
+  </div>
+</body>
+</html>

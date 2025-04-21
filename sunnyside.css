@@ -1,0 +1,299 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.origin{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.parent-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 360vh;
+    width: 50vw;
+}
+.creatives{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    height: 20%;
+    background-image: url(/images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+.image h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    font-weight: bold;
+} */
+/* .navs{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+} */
+@media (max-width:600px) {
+    .navbars{
+        display: none;
+    }
+}
+/* .transform h5 {
+    text-shadow: 3px 0px hsl(7, 99%, 70%);
+} */
+/* .header h2{
+    color: white;
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+}
+.navbars{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.navbars a{
+    color: white;
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbars button{
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px;
+    font-family: "Fraunces", serif;
+}.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.photography{
+    display: grid;
+    height: 170vh;
+    height: 48%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+.cup{
+    background-image: url(/images/desktop/image-stand-out.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+.egg{
+    background-image: url(/images/desktop/image-transform.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+.cherry{
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 0px 60px 10px 30px;
+}
+.orange{
+    background-image: url(/images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 0px 60px 10px 30px;
+
+}
+.transform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 50px 0px 50px;
+    gap: 20px;
+}
+.stand-out{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 50px 0px 50px;
+    gap: 20px;
+}
+.transform h2{
+    font-family: "Fraunces", serif;
+    font-size: 35px;
+}
+.transform h5{
+    text-transform: uppercase;
+    font-family: "Fraunces", serif;
+    border-bottom: 3px solid hsl(51, 100%, 49%);
+    width: 100px;
+}
+.transform p{
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+}
+.stand-out h2{
+    font-family: "Fraunces", serif;
+    font-size: 25px;
+}
+.stand-out h5{
+    text-transform: uppercase;
+    font-family: "Fraunces", serif;
+    border-bottom: 3px solid hsl(7, 99%, 70%);
+    width: 100px;
+}
+
+.stand-out p{
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+}
+.cherry h3{
+    font-family: "Fraunces", serif;
+    font-size: 25px;
+    color: hsl(167, 40%, 24%);
+}
+.cherry p{
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+}
+.orange h3{
+    font-family: "Fraunces", serif;
+    font-size: 25px;
+    color: hsl(198, 62%, 26%);
+}
+.orange p{
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+}
+.third-div{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px 60px 30px;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.third-div>p{
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.profiles{
+    display: flex;
+    gap: 15px;
+}
+.staffs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+}
+.staffs img{
+    border-radius: 50%;
+    height: 50px;
+}
+.staffs p{
+    font-family: "Fraunces", serif;
+    font-size: 15px;
+}
+.ice-cream{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    height: 9%;
+}
+.milk{
+    flex: 1;
+    background-image: url(/images/desktop/image-gallery-milkbottles.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+.osan{
+    flex: 1;
+    background-image: url(/images/desktop/image-gallery-orange.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+.cone{
+    flex: 1;
+    background-image: url(/images/desktop/image-gallery-cone.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+.sugar{
+    flex: 1;
+    background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+.footer{
+    background-color: hsla(167, 90%, 27%, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+.link-head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.link-head h3{
+    color: hsl(167, 40%, 24%);
+    font-family: "Barlow", sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.links a{
+    text-decoration: none;
+    color: hsl(167, 40%, 24%);
+    padding: 15px;
+    font-family: "Barlow", sans-serif;
+}
+.socials{
+    display: flex;
+    gap: 10px;
+} */
